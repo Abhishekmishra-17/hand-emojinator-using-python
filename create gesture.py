@@ -1,7 +1,8 @@
 #importation of require module
 import cv2
 import numpy as np
-import osimage_x,image_y=50,50
+import os
+image_x,image_y=50,50
 # create folder if directory is not availble,but if folder is already present then it further go-ahead without creating new folder
 def createFolder(folder_name):
     if not os.path.exists(folder_name):
@@ -32,7 +33,7 @@ def store_images(g_id):
             opening = cv2.morphologyEx(dilation, cv2.MORPH_CLOSE, kernel_square)
             ret, thresh = cv2.threshold(opening, 30, 255, cv2.THRESH_BINARY)
             thresh = thresh[y:y+h, x:x+w]
-            # this i contour section (creating of contour)
+            # this is contour section (creating of contour)
             contours= cv2.findContours(thresh.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)[0]
             centre = None
             if len(contours)>0:
