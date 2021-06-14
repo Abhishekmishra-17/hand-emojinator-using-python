@@ -2,12 +2,12 @@
 
 Prerequistes
 
-1.Knowledge on deep Networks
+1. Knowledge of deep Networks
 
-2.Convolutional Neural Network
+2. Convolutional Neural Network
 
-3.Baic intuition about Tenorflow
+3. Basic intuition about Tenorflow
 
-4.Baic of Keras
+4. Basic of Keras
 
-5.Image Processing Basic
+5. Basic of Image Processing 
