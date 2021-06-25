@@ -1,13 +1,4 @@
-# hand-emojinator
+# Hand-Emojinator
 
-Prerequistes
-
-1. Knowledge of deep Networks
-
-2. Convolutional Neural Network
-
-3. Basic intuition about Tenorflow
-
-4. Basic of Keras
-
-5. Basic of Image Processing 
+## Prerequisite:
+Knowledge of DNN, CNN, Tensorflow, Keras, Image processing are required.
